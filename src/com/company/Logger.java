@@ -28,9 +28,9 @@ public class Logger {
         byte [] tmp;
         tmp = res.clone();
         int k = res.length-1;
-        int h = pos-1;
-        for (int i = res.length; i >= pos; i--){
-            tmp[k--] = res[pos++];
+        int h = pos;
+        for (int i = res.length; i > pos; i--){
+            tmp[k--] = res[h++];
         }
         app.addToTextArea("----------------------------------- \n " +
                 "отраженный результат: \n");
