@@ -1,16 +1,11 @@
-package com.company;
+/*package com.company;
 
 
 import java.io.IOException;
-import java.util.Arrays;
 
 public class Logger {
-    private Graphics app;
 
-    public Logger(Graphics app) {
-        this.app = app;
-    }
-    public void printMass(byte [] mass){
+    public void toLogMessage(byte [] mass){
         app.addToTextArea("----------------------------------- \n " +
                 "коды сымволов результата: \n");
         for (int i = 0; i < mass.length; i++)
@@ -46,3 +41,4 @@ public class Logger {
         app.addToTextArea("-----------------------------------\n");
     }
 }
+*/
